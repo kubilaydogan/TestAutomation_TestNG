@@ -14,7 +14,7 @@ import org.openqa.selenium.safari.SafariDriver;
 /*
      Driver class is responsible for creating and managing WebDriver instances.
      Key features:
-       - Singleton Pattern:  Line 25, combined with the getDriver method, ensures that only one instance
+       - Singleton Pattern:  Line 24, combined with the getDriver method, ensures that only one instance
                                           of WebDriver is created per thread.
        - Thread Safety: ThreadLocal usage to make WebDriver instance thread-safe.
        - Configuration Management: Reads browser type from a configuration file.
